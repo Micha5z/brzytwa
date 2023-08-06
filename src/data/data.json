@@ -24,12 +24,12 @@
     "Services": [{
             "img": "img/icons/nozyczki.png",
             "name": "Włosy",
-            "text": "Odważ się na rewolucję w swoim wyglądzie! Nasza doświadczona ekipa fryzjerów to prawdziwi artyści, którzy sprawią, że Twoje włosy nabiorą nowego życia. Niezależnie od tego, czy marzysz o odważnym kolorze, nowoczesnej fryzurze czy klasycznym cięciu, jesteśmy gotowi spełnić Twoje oczekiwania i podkreślić Twoją indywidualność."
+            "text": "Nasza doświadczona ekipa fryzjerów to prawdziwi artyści, którzy sprawią, że Twoje włosy nabiorą nowego życia. Niezależnie od tego, czy marzysz nowoczesnej fryzurze czy klasycznym cięciu, jesteśmy gotowi spełnić Twoje oczekiwania i podkreślić Twoją indywidualność."
         },
         {
             "img": "img/icons/broda.png",
             "name": "Zarost",
-            "text": "Broda to nie tylko modny dodatek, to Twoja wizytówka! Pozwól naszym specjalistom od zarostu zadbać o Twoją brodę tak, jak nigdy dotąd. Bez względu na to, czy preferujesz klasyczne golenie, stylizację brody czy kompleksową pielęgnację, zapewniamy najwyższą jakość usług, które podkreślą Twoją męskość."
+            "text": "Broda to nie tylko modny dodatek, to Twoja wizytówka! Pozwól naszym specjalistom od zarostu zadbać o Twoją brodę tak, jak nigdy dotąd. Bez względu na to, czy preferujesz klasyczne golenie, stylizację brody czy kompleksową pielęgnację."
         },
         {
             "img": "img/icons/fotel.png",
