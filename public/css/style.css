@@ -40,12 +40,12 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #608dfd;
+	color: #303030;
 	font-weight: 400;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #608dfd;
+	color: #303030;
 }
 ul, ol {
 	list-style: none;
@@ -82,15 +82,15 @@ hr {
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Arial', sans-serif;
 	text-transform: uppercase;
-	color: #555;
-	font-size: 15px;
-	font-weight: 400;
+	color: #050505;
+	font-size: 18px;
+	font-weight: 600;
 	padding: 8px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -99,7 +99,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #505050 0%, #303030 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -116,7 +116,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #505050 0%, #303030 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -125,10 +125,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #608dfd;
+	border-color: #303030;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #608dfd;
+	background-color: #303030;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -142,7 +142,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #505050 0%, #303030 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -156,13 +156,13 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #303030;
+	background-image: linear-gradient(to right, #505050 0%, #303030 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 800;
 	border-radius: 25px;
 	transition: all 0.5s linear;
 	border: 0;
@@ -193,9 +193,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	margin: 0;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.7);
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
@@ -208,18 +209,19 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 span {
 	font-weight: 800;
-	color: #5ca9fb;
+	color: #303030;
 }
 .intro p {
 	color: #fff;
 	font-size: 22px;
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 30px;
 	margin: 0 auto;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
+	letter-spacing: 1.5px;
 }
 header .intro-text {
-	padding-top: 350px;
+	padding-top: 150px;
 	padding-bottom: 200px;
 	text-align: center;
 }
@@ -237,7 +239,7 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #505050 0%, #303030 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
@@ -256,7 +258,7 @@ header .intro-text {
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #505050 0%, #303030 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -269,9 +271,9 @@ header .intro-text {
 	padding: 0;
 }
 #about .about-text li:before {
-	content: '\f00c';
+	content: '\f10c';
 	font-family: 'FontAwesome';
-	color: #5ca9fb;
+	color: #303030;
 	font-size: 11px;
 	font-weight: 300;
 	padding-right: 8px;
@@ -290,7 +292,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #505050 0%, #303030 100%);
 	color: #fff;
 }
 #services .service-desc {
@@ -314,7 +316,7 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #505050 0%, #303030 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -326,9 +328,11 @@ header .intro-text {
 }
 #services p {
 	color: rgba(255,255,255,.75);
+	padding:5px
 }
 #services .service-desc {
 	margin-bottom: 40px;
+	font-family: 'Open Sans';
 }
 /* Portfolio Section */
 #portfolio {
@@ -348,7 +352,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+	background: linear-gradient(to right, rgba(56, 56, 56, 0.8) 0%, rgba(85, 85, 85, 0.8) 100%);
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -435,7 +439,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #505050 0%, #303030 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -555,7 +559,7 @@ color: #777;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
+	color: #303030;
 	background: #fff;
 }
 /* Footer Section*/
@@ -568,28 +572,86 @@ color: #777;
 	font-size: 14px;
 }
 #footer a {
-	color: #608dfd;
+	color: #303030;
 }
 #footer a:hover {
-	border-bottom: 2px solid #608dfd;
+	border-bottom: 2px solid #303030;
 }
 
 .navbar-brand {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	background: url(../img/logoGold.png) no-repeat center;
+	background: url(../img/blackLogo.png) no-repeat center;
 	background-size: contain;
 	width: 150px; /* Dostosuj szerokość do swojego loga */
 	height: 100px; /* Dostosuj wysokość do swojego loga */
   }
 
+  .brand-logo {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url(../img/logoGold.png) no-repeat center;
+	background-size: contain;
+	width: 450px; /* Dostosuj szerokość do swojego loga */
+	height: 450px; /* Dostosuj wysokość do swojego loga */
+	display: inline-block;
+	/* transform: translateY(-100%);
+	transition: transform 0.5s ease; */
+  }
+
+.background-hero{
+	overflow: hidden;
+	background: url(../img/background.webp) no-repeat center;
+	background-size: cover;
+	width: 100%;
+}
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
+}
+.intro h1{
+	font-size: 50px!important ;
+}
+.brand-logo{
+	width: 200px; /* Dostosuj szerokość do swojego loga */
+	height: 200px; /* Dostosuj wysokość do swojego loga */
 }
 }
 
 .cursor{
 	cursor: pointer;
 }
+
+.social-icons {
+	display: flex;
+	align-items: center;
+  }
+  
+  .social-icons a {
+	margin-right: 10px; /* Możesz dostosować margines według potrzeb */
+  }
+
+  .navbar-icons {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 20px; /* Możesz dostosować pozycję według potrzeb */
+	top: 50%;
+	transform: translateY(-50%);
+  }
+  
+  .navbar-icons a {
+	margin-left: 10px; /* Możesz dostosować margines według potrzeb */
+  }
+
+  .icons {
+	  height: 105px;
+	  width: 105px;
+	/* padding: 30px ; */
+	/* background: linear-gradient(to right, #505050 0%, #303030 100%);
+	border-radius: 50%;
+	color: #fff;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05); */
+  }

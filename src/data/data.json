@@ -1,87 +1,80 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-
+        "title": "Barber dla Ciebie",
+        "paragraph": "Pierwszy Barber w Bielsku-Białej! Odkryj Naszą Wyjątkową Ofertę Barberską. Styl, Jakość i Profesjonalizm w Jednym Miejscu. Zarezerwuj Termin i Zdobądź Swój Wyjątkowy Look!"
+        
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Witaj u Pana Brzytwy! Jesteśmy ekskluzywnym salonem barberskim w samym sercu Bielska-Białej. Nasza pasja do doskonałego męskiego wizerunku spotyka się tu z najnowszymi trendami fryzjerskimi. W naszym salonie zadbamy nie tylko o Twoje włosy, ale również o zarost, zapewniając perfekcyjne strzyżenie, golenie oraz stylizację brody." ,        
+        "paragraph2": "W naszym barbershopie panuje wyjątkowa atmosfera, która sprawia, że każda wizyta to nie tylko strzyżenie, ale także chwila dla Ciebie. Zapewniamy indywidualne podejście do każdego klienta oraz fachowe porady na temat pielęgnacji zarostu i włosów.",
+        "paragraph3": "Poznaj nas od środka! Zanurz się w świat męskiej elegancji i tradycji, która łączy się z nowoczesnością. Serdecznie zapraszamy do naszego barbershopu na Ratuszowej 3. Umów się na wizytę i doświadcz wyjątkowego stylu Pana Brzytwy.",
+        
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Pon 9:00 - 20:00",
+            "Wt 8:00 - 20:00",
+            "Śr 9:00 - 20:00",
+            "Czw 8:00 - 20:00",
+            "Pt 9:00 - 20:00"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+        
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/icons/nozyczki.png",
+            "name": "Włosy",
+            "text": "Odważ się na rewolucję w swoim wyglądzie! Nasza doświadczona ekipa fryzjerów to prawdziwi artyści, którzy sprawią, że Twoje włosy nabiorą nowego życia. Niezależnie od tego, czy marzysz o odważnym kolorze, nowoczesnej fryzurze czy klasycznym cięciu, jesteśmy gotowi spełnić Twoje oczekiwania i podkreślić Twoją indywidualność."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/icons/broda.png",
+            "name": "Zarost",
+            "text": "Broda to nie tylko modny dodatek, to Twoja wizytówka! Pozwól naszym specjalistom od zarostu zadbać o Twoją brodę tak, jak nigdy dotąd. Bez względu na to, czy preferujesz klasyczne golenie, stylizację brody czy kompleksową pielęgnację, zapewniamy najwyższą jakość usług, które podkreślą Twoją męskość."
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/icons/fotel.png",
+            "name": "Zabiegi",
+            "text": "Odkryj oazę relaksu w naszym salonie, gdzie dbamy nie tylko o Twój wygląd, ale także o Twój komfort. Nasze luksusowe zabiegi pielęgnacyjne to odprężająca podróż poświęcona Twojemu ciału. Od masażu głowy po odżywcze maski na twarz - pozwól nam zadbać o Ciebie od stóp do głów."
         },
         {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/icons/kosmetyki.png",
+            "name": "Kosmetyki",
+            "text": "Oferujemy najwyższej jakości kosmetyki, które sprawią, że Twoja skóra i włosy będą promienieć zdrowiem. W naszym asortymencie znajdziesz starannie wyselekcjonowane produkty od renomowanych marek, które pozwolą Ci podkreślić swoją naturalną urodę."
         },
         {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/icons/maszynka.png",
+            "name": "Guest Spot",
+            "text": "Poznaj wyjątkową atmosferę i talent innych artystów, którzy odwiedzają nasz barber shop. Dzięki naszym eventom możesz skorzystać z usług gości specjalnych - czy to mistrza w stylizacji włosów, czy uznanego tatuatora. To niepowtarzalna okazja, by doświadczyć czegoś nowego i czerpać inspirację od najlepszych."
         },
         {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "img": "img/icons/baner.png",
+            "name": "Szkolenia",
+            "text": "Pasjonujesz się fryzjerstwem i chcesz rozwijać swoje umiejętności? Nasze profesjonalne szkolenia to doskonała okazja, by zgłębić tajniki nowoczesnych technik strzyżenia, stylizacji brody czy pielęgnacji męskich włosów. Nasi doświadczeni instruktorzy pomogą Ci osiągnąć mistrzostwo w swojej dziedzinie."
         }
 
 
     ],
     "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+           
+            "text": "\"Wspaniały salon, mogę polecić wszystkim z czystym sumieniem. A barber Mateusz to pozytywny i rzetelny specjalista. Jestem bardzo zadowolony z końcowego rezultatu i na pewno powrócę za miesiąc.🙂\"",
+            "name": "Robert B"
         },
         {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+       
+            "text": "\"Super miejsce, jeszcze lepsza obsługa, zawsze wychodzę zadowolony z tego miejsca 😃\"",
+            "name": "Jasiek Ł"
         },
         {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "\"Polecam. Jak na mój pierwszy raz w takim salonie jestem bardzo zadowolony. Super obsługa.\"",
+            "name": "Jarosław K"
         },
         {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "\"First cut in that place, i'm impressed and satisfied. Highly recommended if you need some change for your hair.\"",
+            "name": "Sahin B"
         },
         {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "\"Dzięki sugestiom najlepszego barbera w mieście, dokonałem ogromnej metamorfozy mojej dotychczasowej fryzury. Zyskałem +100 do wyglądu i wskazówki jak szybko ułożyć rano włosy. Niezmiennie polecam. Dodatkowy bonus - atmosfera na miejscu. Pełny relaks, czysto, dobra muzyka\"",
+            "name": "Aleks"
         }
     ],
     "Team": [{
@@ -105,32 +98,29 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
+        "address": "Ratuszowa 3, Bielsko-Biała, Poland, 43-300",
+        "phone": "+48 533 146 763",
         "email": "info@company.com",
-        "facebook": "fb.com",
         "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "youtube": "youtube.com",
+        "instagram": "https://www.instagram.com/pan.brzytwa.barbershop/",
+        "facebook": "https://www.facebook.com/panbrzytwa"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "img/team/andrzej.jpg",
+            "job": "Andrzej... hmm.. To imię zobowiązuje, tak samo jak sprawowanie władzy w kraju. Natomiast nasz Cejdi jest inny. To dusza Towarzystwa wiecznie uśmiechnięta, reprezentant naszego salonu w wielu pokazach barberskich. Kocha to co robi a jego precyzja i dokładność przemawia sama za siebie:)!"
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "img/team/darek.jpg",
+            "job": "To cichy i skromny chłopak, który jest nie tylko wielkim fanem kina, ale także prawdziwym znawcą świata komiksów. Jego talent, perfekcjonizm i zaangażowanie w zawodzie sprawiają, że każda wizyta u niego to niezapomniane doświadczenie. Darek czuje się jak ryba w wodzie w świecie fryzjerstwa, ciągle podnosząc poziom swoich usług do mistrzowskiego standardu."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "img/team/bartek.jpg",
+            "job": "To człowiek pełen pasji i charyzmy. Od 13 lat jego dłoni nie opuszczają nożyczki. Nie boi się wyzwań a na głowach naszych klientów tworzy same fryzjerskie arcydzieła"
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "img/team/kacper.jpg",
+            "job": "Kacper, to mega utalentowany barber z pozytywnym nastawieniem do pracy i sportów rowerowych które kocha. Ciągle rozwija swój talent i umiejętności podczas różnych szkoleń z dziedziny fryzjerstwa"
         }
     ]
 }
