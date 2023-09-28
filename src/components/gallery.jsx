@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
 
-export const Gallery = props => {
+export const Gallery = (props) => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
@@ -14,12 +14,12 @@ export const Gallery = props => {
     { thumb: "img/portfolio/06-small.jpg", title: "" },
     { thumb: "img/portfolio/07-small.jpg", title: "" },
     { thumb: "img/portfolio/08-small.jpg", title: "" },
-    { thumb: "img/portfolio/09-small.jpg", title: "" }
+    { thumb: "img/portfolio/09-small.jpg", title: "" },
   ];
 
-  const images = data.map(obj => obj.thumb.replace("-small", "-large"));
+  const images = data.map((obj) => obj.thumb.replace("-small", "-large"));
 
-  const openImageViewer = useCallback(index => {
+  const openImageViewer = useCallback((index) => {
     setCurrentImage(index);
     setIsViewerOpen(true);
   }, []);
@@ -34,18 +34,29 @@ export const Gallery = props => {
       <div className="container">
         <div className="section-title">
           <h2>Galeria</h2>
-          <p>Poznaj nas od środka! Odkryj niepowtarzalną atmosferę naszego barbershopu. </p>
+          <p>
+            Poznaj nas od środka! Odkryj niepowtarzalną atmosferę naszego
+            barbershopu.{" "}
+          </p>
         </div>
         <div className="row">
           <div className="portfolio-items">
             {data.map(({ title, thumb }, index) => (
-              <div key={index} onClick={() => openImageViewer(index)} className="col-sm-6 col-md-4 col-lg-4">
+              <div
+                key={index}
+                onClick={() => openImageViewer(index)}
+                className="col-sm-6 col-md-4 col-lg-4"
+              >
                 <div className="portfolio-item cursor">
                   <div className="hover-bg">
                     <div className="hover-text">
                       <h4>{title}</h4>
                     </div>
-                    <img src={thumb} className="img-responsive" alt="Project Title" />{" "}
+                    <img
+                      src={thumb}
+                      className="img-responsive"
+                      alt="Project Title"
+                    />{" "}
                   </div>
                 </div>
               </div>
