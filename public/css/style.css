@@ -152,6 +152,44 @@ hr {
 .section-title p {
 	font-size: 18px;
 }
+.btn-anim2 {
+	animation-delay: -2s;
+	position: absolute;
+	top: 520px;
+	right: 0;
+	max-width: 500;
+	width: 100%;
+	text-align: right;
+	animation-name: move2;
+	animation-duration: 1.7s;
+	animation-delay: inherit;
+}
+@keyframes move2 {
+	0% {
+		right: -1000;
+	}
+	100% {
+		right: 0;
+	}
+  }
+.btn-anim1 {
+	animation-delay: -2s;
+	z-index: 100000!important;
+	position: absolute;
+	left: 0;
+	animation-name: move1;
+	animation-duration: 1.7s;
+	animation-delay: inherit;
+	top: 700px;
+}
+@keyframes move1 {
+	0% {
+		left: -200;
+	}
+	100% {
+		left: 0;
+	}
+  }
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
@@ -221,7 +259,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	letter-spacing: 1.5px;
 }
 header .intro-text {
-	padding-top: 150px;
+	padding-top: 100px;
 	padding-bottom: 200px;
 	text-align: center;
 }
@@ -587,7 +625,6 @@ color: #777;
 	width: 150px; /* Dostosuj szerokość do swojego loga */
 	height: 100px; /* Dostosuj wysokość do swojego loga */
   }
-
   .brand-logo {
 	text-indent: 100%;
 	white-space: nowrap;
@@ -600,12 +637,12 @@ color: #777;
 	/* transform: translateY(-100%);
 	transition: transform 0.5s ease; */
   }
-
 .background-hero{
 	overflow: hidden;
 	background: url(../img/background.webp) no-repeat center;
 	background-size: cover;
 	width: 100%;
+	/* filter: blur(4px); */
 }
 @media (max-width: 768px) {
 #about img {
