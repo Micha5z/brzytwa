@@ -605,6 +605,7 @@ color: #777;
 	overflow: hidden;
 	background: url(../img/background.webp) no-repeat center;
 	background-size: cover;
+	background-attachment: fixed;
 	width: 100%;
 }
 @media (max-width: 768px) {
